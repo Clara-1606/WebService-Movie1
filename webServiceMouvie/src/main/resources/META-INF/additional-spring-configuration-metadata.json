@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "spring.http.converters.preferred-converter",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.http.converters.preferred-converter'"
+  },
+  {
+    "name": "spring.http.converters.json.preferred-media-types",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.http.converters.json.preferred-media-types'"
+  },
+  {
+    "name": "spring.http.converters.xml.preferred-media-types",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.http.converters.xml.preferred-media-types'"
+  },
+  {
+    "name": "springfox.documentation.swagger.v2.title",
+    "type": "java.lang.String",
+    "description": "A description for 'springfox.documentation.swagger.v2.title'"
+  },
+  {
+    "name": "springfox.documentation.swagger.v2.description",
+    "type": "java.lang.String",
+    "description": "A description for 'springfox.documentation.swagger.v2.description'"
+  },
+  {
+    "name": "springfox.documentation.swagger.v2.version",
+    "type": "java.lang.String",
+    "description": "A description for 'springfox.documentation.swagger.v2.version'"
+  },
+  {
+    "name": "springfox.documentation.swagger.v2.title",
+    "type": "java.lang.String",
+    "description": "A description for 'springfox.documentation.swagger.v2.title'"
+  }
+]}

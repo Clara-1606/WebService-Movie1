@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  movie_app:
+    build: .
+    depends_on:
+      - movie_bdd
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"  # Port sur lequel votre application Spring sera accessible
+
+  movie_bdd:
+    image: mysql:8.3
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: movie_db
+    ports:
+      - "3309:3306"  # Port sur lequel votre base de données MySQL sera accessible
+    volumes:
+      - mysql_data:/var/lib/mysql  # Montage d'un volume pour persister les données
